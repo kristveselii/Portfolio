@@ -23,7 +23,7 @@ const greeting = {
   username: "Krist Veseli",
   title: "Hi all, I'm Krist",
   subTitle: emoji(
-    "A student at Michigan State University 🚀 having experience coding in Python, C++, C#, C and JavaScript."
+    "A student at Michigan State University 🚀 having experience coding in Python, C++, C# and JavaScript."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -45,14 +45,12 @@ const skillsSection = {
   title: "What I do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Behavioral Unit Testing, ensuring maximum code"
-    )
+    emoji("⚡ Architect and implement RESTful APIs using Node.js, Express & SQL/NoSQL databases"),
+    emoji("⚡ Develop AI/ML pipelines in Python for financial analysis and fantasy-football tooling"),
+    emoji("⚡ Containerize & deploy apps with Docker, Azure (and AWS) plus CI/CD workflows"),
+    emoji("⚡ Practice TDD: write clean, maintainable code with pytest and C# XUnit")
   ],
+
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -64,11 +62,11 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "C#",
-      fontAwesomeClassname: "fab fa-cuttlefish"
+      fontAwesomeClassname: "devicon-csharp-plain plain"
     },
     {
       skillName: "C++",
-      fontAwesomeClassname: "fab fa-sass"
+      fontAwesomeClassname: "devicon-cplusplus-plain plain"
     },
     {
       skillName: "JavaScript",
@@ -121,15 +119,7 @@ const educationInfo = {
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    // {
-    //   schoolName: "Stanford University",
-    //   logo: require("./assets/images/stanfordLogo.png"),
-    //   subHeader: "Bachelor of Science in Computer Science",
-    //   duration: "September 2013 - April 2017",
-    //   desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-    //   descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    // }
+    }
   ]
 };
 
@@ -164,10 +154,14 @@ const workExperiences = {
       company: "United Wholesale Mortgage",
       companylogo: require("./assets/images/image.png"),
       date: "May 2025 – August 2025",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      // desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Migrated legacy CRON jobs into C# Azure Functions using timer triggers, improving reliability and eliminating manual scheduler maintenance and improving reliability by 70%",
+        "Optimized user segmentation process by crafting complex SQL queries to filter users against specific business criteria, boosting efficiency by 85%",
+        "Automated new-user provisioning by authoring SQL scripts to grant database permissions, accelerating onboarding and reducing manual updates by 60%",
+        "Maintained and updated outdated project dependencies and libraries, resolving compatibility issues and reducing security vulnerabilities across multiple app modules",
+        "Developed unit and behavior tests with MSTest, NUnit, and Moq, using CodeRush to improve test coverage by up to 90% on features deployed to production",
+        "Ensured code coverage by writing tests that hit actual repository code, validating data access and business logic layers."
       ]
     },
   ]
@@ -352,7 +346,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
