@@ -23,7 +23,7 @@ const greeting = {
   username: "Krist Veseli",
   title: "Hi all, I'm Krist",
   subTitle: emoji(
-    "A student at Michigan State University 🚀 having experience coding in Python, C++, C# and JavaScript."
+    "A student at Michigan State University 🚀 with experience coding in Python, C++, C# and JavaScript."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1y6GJK291c1q-eMiMJNRemZvl7ACXQ3Ta/view?usp=sharing", // Set to empty to hide the button
@@ -42,7 +42,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "What I Do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji("⚡ Architect and implement RESTful APIs using Node.js, Express & SQL/NoSQL databases"),
