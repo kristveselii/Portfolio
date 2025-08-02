@@ -26,7 +26,7 @@ const greeting = {
     "A student at Michigan State University 🚀 having experience coding in Python, C++, C# and JavaScript."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1y6GJK291c1q-eMiMJNRemZvl7ACXQ3Ta/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -111,14 +111,11 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Michigan State University",
-      logo: require("./assets/images/harvardLogo.png"),
+      logo: require("./assets/images/michigan-state-logo-black-and-white.png"),
       subHeader: "Bachelors of Science in Computer Science",
       duration: "August 2022 - May 2026",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      desc: "Pursuing a Bachelors of Science in Computer Science with a focus on software development and AI/ML",
+      descBullets: []
     }
   ]
 };
