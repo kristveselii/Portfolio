@@ -45,12 +45,19 @@ const skillsSection = {
   title: "What I Do",
   subTitle: "FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Architect and implement RESTful APIs using Node.js, Express & SQL/NoSQL databases"),
-    emoji("⚡ Develop AI/ML pipelines in Python for financial analysis and fantasy-football tooling"),
-    emoji("⚡ Containerize & deploy apps with Docker, Azure (and AWS) plus CI/CD workflows"),
-    emoji("⚡ Practice TDD: write clean, maintainable code with pytest and C# XUnit")
+    emoji(
+      "⚡ Architect and implement RESTful APIs using Node.js, Express & SQL/NoSQL databases"
+    ),
+    emoji(
+      "⚡ Develop AI/ML pipelines in Python for financial analysis and fantasy-football tooling"
+    ),
+    emoji(
+      "⚡ Containerize & deploy apps with Docker, Azure (and AWS) plus CI/CD workflows"
+    ),
+    emoji(
+      "⚡ Practice TDD: write clean, maintainable code with pytest and C# XUnit"
+    )
   ],
-
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -160,7 +167,7 @@ const workExperiences = {
         "Developed unit and behavior tests with MSTest, NUnit, and Moq, using CodeRush to improve test coverage by up to 90% on features deployed to production",
         "Ensured code coverage by writing tests that hit actual repository code, validating data access and business logic layers."
       ]
-    },
+    }
   ]
 };
 
@@ -333,8 +340,7 @@ const resumeSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "My Inbox is open for all!",
+  subtitle: "My Inbox is open for all!",
   number: "+1-586-477-5456",
   email_address: "kristveselii@gmail.com"
 };
