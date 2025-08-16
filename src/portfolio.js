@@ -26,7 +26,7 @@ const greeting = {
     "A student at Michigan State University 🚀 with experience coding in Python, C++, C# and JavaScript."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1y6GJK291c1q-eMiMJNRemZvl7ACXQ3Ta/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1qmiGWCKcYH03mhE1ZsIn0i1G1r-mDvQ-/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
